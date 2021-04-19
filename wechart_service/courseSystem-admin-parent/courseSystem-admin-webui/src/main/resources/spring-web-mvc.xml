@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 配置自动扫描的包 -->
+    <context:component-scan base-package="com.crowd.mvc"></context:component-scan>
+
+    <!-- 开启 SpringMVC 的注解驱动-->
+    <mvc:annotation-driven />
+
+    <!--配置视图解析器-->
+    <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+
+    <!-- 配置基于 xml 的异常-->
+    <bean id="simpleMappingExceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <prop key="com.crowd.util.AccessForbidenException">admin-login</prop>
+                <prop key="java.lang.Exception">system-error</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!--配置 view-controller 直接把我们的请求地址与视图连接起来，这样简单的 handler 就不用写了-->
+    <mvc:view-controller path="security/do/login.html" view-name="admin-login" />
+    <mvc:view-controller path="admin/to/add/page.html" view-name="admin-add" />
+    <mvc:view-controller path="admin/to/main/page.html" view-name="admin-main" />
+    <mvc:view-controller path="role/to/page.html" view-name="role-page" />
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!-- 对应拦截的资源 -->
+            <mvc:mapping path="/**"/>
+            <!-- 配置那些资源不拦截 -->
+            <mvc:exclude-mapping path="/security/do/login.html"/>
+            <mvc:exclude-mapping path="/admin/do/login.html"/>
+            <mvc:exclude-mapping path="/admin/do/logout.html"/>
+            <!--配置拦截器类-->
+            <bean class="****" />
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+</beans>

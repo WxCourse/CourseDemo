@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="courseSystem-admin-webui:war">
+    <output-path>$PROJECT_DIR$/../courseSystem-admin-parent/courseSystem-admin-webui/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>courseSystem-admin-webui</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="courseSystem-admin-webui.war">
+      <element id="artifact" artifact-name="courseSystem-admin-webui:war exploded" />
+    </root>
+  </artifact>
+</component>

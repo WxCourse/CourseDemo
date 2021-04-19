@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="courseSystem-common-reverse" />
+        <module name="courseSystem-admin-component" />
+        <module name="courseSystem-admin-entity" />
+        <module name="courseSystem-admin-webui" />
+        <module name="courseSystem-common-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="courseSystem-admin-component" target="11" />
+      <module name="courseSystem-admin-entity" target="11" />
+      <module name="courseSystem-admin-parent" target="11" />
+      <module name="courseSystem-admin-webui" target="1.7" />
+      <module name="courseSystem-common-reverse" target="11" />
+      <module name="courseSystem-common-util" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../courseSystem-admin-parent/courseSystem-admin-webui" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../courseSystem-admin-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../courseSystem-common-reverse/pom.xml" />
+        <option value="$PROJECT_DIR$/../courseSystem-common-util/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
