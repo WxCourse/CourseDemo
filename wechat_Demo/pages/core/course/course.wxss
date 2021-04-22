@@ -1,1 +1,70 @@
-/* pages/core/course/course.wxss */
+/* 课程表 */
+.top {
+  display: flex;
+  flex-direction: row;
+  background-color: #95f8df;
+  color: #057748;
+  height: 35rpx;
+}
+
+.top-text {
+  width: 100rpx;
+  height: 29rpx;
+  font-size: 9pt;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  background-color: #95f8df;
+  color: #057748;
+  height: 35rpx;
+}
+.date-text{
+  width: 100rpx;
+  height: 29rpx;
+  font-size: 9pt;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.flex-item {
+    width: 95rpx;
+    height: 100px;
+    opacity:0.8;
+  }
+  
+  .Course-item {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+  }
+  
+  .smalltext {
+    font-size: 8pt;
+    color: #fff;
+    padding-left: 3px;
+  }
+  
+  .scroll {
+    height: 1170rpx;
+    z-index: 101;
+    position: fixed;
+    background-color: #e1effd;
+  }
+  
+  .left {
+    width: 38rpx;
+    height: 100rpx;
+    font-size: 9pt;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
