@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="courseSystem01-admin-webui:war exploded">
+    <output-path>$PROJECT_DIR$/../courseSystem-admin-parent/courseSystem01-admin-webui/target/courseSystem01-admin-webui</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>courseSystem01-admin-webui</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="courseSystem01-admin-webui" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="courseSystem02-admin-component-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="courseSystem02-admin-component" />
+          </element>
+          <element id="archive" name="courseSystem03-admin-entity-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="courseSystem03-admin-entity" />
+          </element>
+          <element id="archive" name="courseSystem-common-util-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="courseSystem-common-util" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../courseSystem-admin-parent/courseSystem01-admin-webui/target/courseSystem01-admin-webui/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="courseSystem01-admin-webui/web/Web" />
+    </root>
+  </artifact>
+</component>

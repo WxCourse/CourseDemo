@@ -14,7 +14,7 @@
         http://www.springframework.org/schema/tx/spring-tx.xsd">
 
     <!--配置自动扫描的包: 主要是为了把 Service 扫描到IOC容器之中-->
-    <context:component-scan base-package="***" />
+    <context:component-scan base-package="com.crowd.service" />
 
     <!--配置事务管理器-->
     <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
