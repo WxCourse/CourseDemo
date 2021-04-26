@@ -7,19 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="courseSystem-common-reverse" />
-        <module name="courseSystem-admin-component" />
-        <module name="courseSystem-admin-entity" />
-        <module name="courseSystem-admin-webui" />
+        <module name="courseSystem02-admin-component" />
+        <module name="courseSystem03-admin-entity" />
+        <module name="courseSystem01-admin-webui" />
         <module name="courseSystem-common-util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="course" target="1.5" />
       <module name="courseSystem-admin-component" target="11" />
       <module name="courseSystem-admin-entity" target="11" />
       <module name="courseSystem-admin-parent" target="11" />
       <module name="courseSystem-admin-webui" target="1.7" />
       <module name="courseSystem-common-reverse" target="11" />
       <module name="courseSystem-common-util" target="1.5" />
+      <module name="courseSystem01-admin-webui" target="1.7" />
+      <module name="courseSystem02-admin-component" target="11" />
+      <module name="courseSystem03-admin-entity" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

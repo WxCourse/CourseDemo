@@ -2,30 +2,20 @@ function  generateTree() {
     // 1.准备生成树形结构的JSON数据，数据的来源是发送ajax请求得到的
     $.ajax({
         "url": "menu/get/whole/tree.json",
-        "type": "post",
+        "type":"post",
         "dataType": "json",
+        "async":"false",
         "success": function (response) {
             var result = response.result;
-            if (result == "SUCCESS") {
+            if (result == "success") {
                 // 2.创建JSON对象用于存储对zTree所做的设置
-                var setting = {
-                    "view":{
-                        "addDiyDom": myAddDiyDom,
-                        "addHoverDom":myAddHoverDom,
-                        "removeHoverDom":myRemoveHoverDom
-                    },
-                    "data":{
-                        "key":{
-                            "url":"maomi"
-                        }
-                    }
-                };
+                var setting = [];
                 // 3.从响应体获取数据
                 var zNodes = response.data;
                 // 4.初始化树形结构
                 $.fn.zTree.init($("#treeDemo"), setting, zNodes);
             }
-            if (result == "FAILED") {
+            if (result == "failed") {
                 layer.msg(response.message);
             }
         }

@@ -26,7 +26,10 @@
         <!--指定 Mapper 文件的位置 -->
         <property name="mapperLocations">
             <list>
-                <value>***</value>
+                <value>classpath:mybatis/mapper/RoleMapper.xml</value>
+                <value>classpath:mybatis/mapper/AdminMapper.xml</value>
+                <value>classpath:mybatis/mapper/MenuMapper.xml</value>
+                <value>classpath:mybatis/mapper/AuthMapper.xml</value>
             </list>
         </property>
         <!--装配数据源-->
@@ -50,7 +53,7 @@
 
     <!-- 用来扫描 Mapper 接口所在的包-->
     <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="***" />
+        <property name="basePackage" value="com.crowd.mapper" />
     </bean>
 
 
