@@ -1,1 +1,80 @@
 /* pages/core/main/main.wxss */
+banners {
+  width: 100%;
+  height: 300rpx;
+}
+swiper {
+  width: 100%;
+  height: 150px;
+}
+swiper-item {
+
+}
+.banners image {
+  width: 100%;
+  height: 100%;
+}
+/* 五个图标导航区域 */
+.navContainer {
+  display: flex;
+}
+/* 如何要两个text不在一行呢，如下操作 */
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+}
+.navItem .iconfont {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  background: rgb(56,195,161);
+  font-size: 50rpx;
+  color: #fff;
+  margin: 20rpx 0;
+}
+
+.navItem text {
+  font-size: 26rpx;
+  color: #38c3a1;
+}
+
+/* 校园新闻部分 */
+/* 头部 */
+.recommendContainer {
+  padding: 20rpx;
+}
+.recommendContainer .header{
+  padding-bottom: 20rpx;
+}
+.recommendContainer .header .title {
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 80rpx;
+  color: #38c3a1;
+}
+.recommendContainer .header .more {
+  float: right;
+  margin: 20rpx;
+  border: 1rpx solid #38c3a1;
+  padding: 5rpx 15rpx;
+  border-radius: 30rpx;
+  font-size: 26rpx;
+  color: #38c3a1;
+} 
+/* 推荐内容区域 */
+.scrollItem text {
+  font-size: 35rpx;
+  color: #38c3a1;
+  /* text是靠内容撑开的，没有办法可以切割块元素，所以需要display */
+  /* display: block; */
+  /* 多行文本溢出省略号代替 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;/* 设置对齐模式*/
+  -webkit-line-clamp: 4;/*设置多行的行数，就是第几行溢出需要出现省略号*/
+}

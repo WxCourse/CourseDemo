@@ -1,3 +1,4 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "我的课表",
+  "navigationBarBackgroundColor": "#38c3a1"
 }

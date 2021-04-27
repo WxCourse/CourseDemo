@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/core/main/main",
+    "pages/index/index",
     "pages/main",
     "pages/logs/logs",
     "pages/core/user/user",
@@ -9,8 +9,8 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#38c3a1",
+    "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -19,21 +19,22 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/core/main/main",
         "iconPath": "images/nav/tabbar/index.png",
         "selectedIconPath": "images/nav/tabbar/index@select.png",
         "text": "首页"
       },
-      {
-        "pagePath": "pages/core/user/user",
-        "iconPath": "images/nav/tabbar/more.png",
-        "selectedIconPath": "images/nav/tabbar/more@select.png",
-        "text": "课表"
-      },
+      
       {
         "pagePath": "pages/core/course/course",
-        "iconPath": "images/nav/tabbar/more.png",
-        "selectedIconPath": "images/nav/tabbar/more@select.png",
+        "iconPath": "images/nav/tabbar/table.png",
+        "selectedIconPath": "images/nav/tabbar/table@select.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/core/user/user",
+        "iconPath": "images/nav/tabbar/mine.png",
+        "selectedIconPath": "images/nav/tabbar/mine@select.png",
         "text": "我的"
       }
     ]

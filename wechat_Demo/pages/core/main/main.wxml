@@ -1,2 +1,67 @@
 <!--pages/core/main/main.wxml-->
-<text>pages/core/main/main.wxml</text>
+<view class="indexContainer"> 
+  <!-- 轮播图区域 -->
+  <swiper class="banners"  autoplay indicator-dots indicator-color="ivory" indicator-active-color="#38c3a1" circular>
+		<swiper-item>  
+			<image mode="widthFix" src="/images/nav/pic/flow2.jpg"></image>
+    </swiper-item>
+    <swiper-item>  
+			<image mode="widthFix" src="/images/nav/pic/flow1.jpg"></image>
+    </swiper-item>
+    <swiper-item>  
+			<image mode="widthFix" src="/images/nav/pic/flow2.jpg"></image>
+		</swiper-item>
+	</swiper>
+	<!-- 五个图标导航区域 -->
+    <view class="navContainer">
+        <view class="navItem">
+          <text class="iconfont icon-booking_cur"></text>
+          <text>图书馆藏</text>
+        </view>
+        <view class="navItem">
+          <text class="iconfont icon-chengji21"></text>
+          <text>成绩查询</text>
+        </view>
+        <view class="navItem">
+          <text class="iconfont icon-jiaoshi"></text>
+          <text>空闲教室</text>
+        </view>
+        <view class="navItem">
+          <text class="iconfont icon-xuesheng"></text>
+          <text>学涯统计</text>
+        </view>
+        <view class="navItem">
+          <text class="iconfont icon-xiaoli2"></text>
+          <text>学校校历</text>
+        </view>
+      </view>
+  <!--中间校园新闻部分 -->
+  <view class="recommendContainer">
+    <!-- 头部 -->
+		<view class="header">
+      <text class="title">校园新闻</text>
+      <text class="more">更多 ></text>
+    </view>
+		<!-- 主体内容区域 -->
+		<!-- scroll-view -->
+		<scroll-view class="recommendScroll" enable-flex scroll-x>
+			<view class="scrollItem">
+				<text>考研自习室申请即将开始，申请流程如下：先填好信息去学办盖章，再进群，再填好信息，等待链接的发放考研自习室申请即将开始，申请流程如下：先填好信息去学办盖章，再进群，再填好信息，等待链接的发放</text>
+			</view>
+    </scroll-view>
+  </view>
+  <view class="recommendContainer">
+    <!-- 头部 -->
+		<view class="header">
+      <text class="title">考研趣事</text>
+      <text class="more">更多 ></text>
+    </view>
+		<!-- 主体内容区域 -->
+		<!-- scroll-view -->
+		<scroll-view class="recommendScroll" enable-flex scroll-x>
+			<view class="scrollItem">
+				<text>考研自习室申请即将开始，申请流程如下：先填好信息去学办盖章，再进群，再填好信息，等待链接的发放考研自习室申请即将开始，申请流程如下：先填好信息去学办盖章，再进群，再填好信息，等待链接的发放</text>
+			</view>
+    </scroll-view>
+  </view>
+</view>
