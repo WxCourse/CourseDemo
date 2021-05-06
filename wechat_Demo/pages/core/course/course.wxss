@@ -1,4 +1,17 @@
 /* 课程表 */
+.section{
+  width: 100%;
+  font-size: 27rpx;
+  height: 30rpx;
+  line-height: 27rpx;
+  text-align: center;
+  color: #000;
+  background-color: #95f8df;
+  border: ivory solid 1rpx;
+}
+.picker{
+ color: #000;
+}
 .top {
   display: flex;
   flex-direction: row;
@@ -53,18 +66,29 @@
   }
   
   .scroll {
-    height: 1170rpx;
+    height: 1290rpx;
     z-index: 101;
     position: fixed;
-    background-color: #e1effd;
+    /* background-color: #e1effd; */
+  }
+  image{
+    display: block;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -999;
+    height: 100%;
   }
   
   .left {
-    width: 38rpx;
+    width: 40rpx;
     height: 100rpx;
     font-size: 9pt;
     justify-content: center;
     display: flex;
     align-items: center;
   }
+  
+  
   

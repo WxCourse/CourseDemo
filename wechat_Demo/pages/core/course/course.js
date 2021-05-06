@@ -22,6 +22,32 @@ Page({
     ],
     datelist:[12],
     monthNow: 4,
+    array:['第一周','第二周','第三周','第四周'],
+    objectArray:[
+      {
+        id:0,
+        name:'第一周'
+      },
+      {
+        id:1,
+        name:'第二周'
+      },
+      {
+        id:2,
+        name:'第三周'
+      },
+      {
+        id:3,
+        name:'第四周'
+      },
+    ],
+    index: 0,
+  },
+  bindPickerChange: function (e) {
+    console.log('picker发送选择改变，携带值为',e.detail.value)
+    this.setData({
+      index:e.detail.value
+    })
   },
 
   /**

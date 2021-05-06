@@ -25,13 +25,13 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/core/user/user",
+        "pagePath": "pages/core/course/course",
         "iconPath": "images/nav/tabbar/more.png",
         "selectedIconPath": "images/nav/tabbar/more@select.png",
         "text": "课表"
       },
       {
-        "pagePath": "pages/core/course/course",
+        "pagePath": "pages/core/user/user",
         "iconPath": "images/nav/tabbar/more.png",
         "selectedIconPath": "images/nav/tabbar/more@select.png",
         "text": "我的"
