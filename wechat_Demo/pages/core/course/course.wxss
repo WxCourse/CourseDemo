@@ -1,4 +1,17 @@
 /* 课程表 */
+.section{
+  width: 100%;
+  font-size: 27rpx;
+  height: 30rpx;
+  line-height: 27rpx;
+  text-align: center;
+  color: #000;
+  background-color: #95f8df;
+  border: ivory solid 1rpx;
+}
+.picker{
+ color: #000;
+}
 .top {
   display: flex;
   flex-direction: row;
@@ -53,18 +66,72 @@
   }
   
   .scroll {
-    height: 1170rpx;
+    height: 1290rpx;
     z-index: 101;
     position: fixed;
-    background-color: #e1effd;
+    /* background-color: #e1effd; */
+  }
+  image{
+    display: block;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -999;
+    height: 100%;
   }
   
   .left {
-    width: 38rpx;
+    width: 40rpx;
     height: 100rpx;
     font-size: 9pt;
     justify-content: center;
     display: flex;
     align-items: center;
   }
+  .mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0rpx;
+    left: 0;
+    background: #000;
+    z-index: 9000;
+    opacity: 0.5;
+  }
+  .modalDlg{
+    width: 70%;
+    position: fixed;
+    top: 300rpx;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ok{
+    width: 150rpx;
+    height: 60rpx;
+    background: #44b549;
+    line-height: 58rpx;
+    text-align: center;
+    color: #fff;
+    margin: 40rpx auto;
+    margin-bottom: 20rpx;
+    border-radius: 200rpx;
+  }
+  .text{
+    text-align: justify;
+    font-size: 28rpx;
+    color: #666;
+    width: 360rpx;
+    line-height: 60rpx;
+  }
+
+  
+  
   

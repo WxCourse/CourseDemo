@@ -1,35 +1,53 @@
+
+<!-- 选择周 -->
+<view class="section">
+<picker bindchange="bindPickerChange" mode="selector" value="{{index}}" range="{{array}}">
+  <view class="picker">{{array[index]}}▼</view>
+</picker>
+</view>
+<!-- 顶部 -->
 <view class="top">
 <view class="month" style="font-size:9.5pt">{{monthNow}}月</view>
   <view  class="top-text" wx:for="{{['一','二','三','四','五','六','日']}}">周{{item}}
   </view>
 </view>
 <view class="date" >
-  <view class="date-text">{{datelist}}</view>
-  <view class="date-text">{{datelist}}</view>
-  <view class="date-text">{{datelist}}</view>
-  <view class="date-text">{{datelist}}</view>
-  <view class="date-text">{{datelist}}</view>
-  <view class="date-text">{{datelist}}</view>
-  <view class="date-text">{{datelist}}</view>
+  <view class="date-text" wx:for="{{datelist}}">{{item}}</view>
 </view>
+<!-- 布局 -->
+<image src="../../../images/course/course.png"/>
 <scroll-view scroll-y="true" class="scroll">
-  <view style="height:1200rpx;width:730rpx;display:flex;">
+  <view style="height:1300rpx;width:730rpx;display:flex;">
     <view style="background-color:#95f8df;color:#057748;">
-      <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11]}}" class="left">
+      <view  class="left" wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}">
         {{item}}
       </view>
     </view>
-    <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11]}}">
-      <view style="width:800rpx;margin-top:{{(index+1)*100}}rpx;  position: absolute; border-bottom:1rpx solid {{(index==3||index==7)?'red':'lightgray'}} ;">
+    <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}">
+      <view style="width:800rpx;margin-top:{{(index+1)*100}}rpx;  position: absolute;">
       </view>
     </view>
 
     <!--课表-->
     <view wx:for="{{wlist}}">
-      <view class="flex-item Course-item"   
+      <view bindtap="click" class="flex-item Course-item"   
       data-index="{{index}}" style="margin-left:{{(item.WhichDay-1)*100}}rpx; margin-top:{{(item.CourseBegin-1)*100+5}}rpx;height:{{item.CourseNumber*100-5}}rpx; background-color:{{colorArrays[index%7]}}">
-        <view class="smalltext" >{{item.CourseName}}</view>
+        <view class="smalltext" >
+        {{item.CourseName}}{{item.place}}
+          </view>
       </view>
     </view>
   </view>
 </scroll-view>
+<!-- 弹框 -->
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}">
+  <text class="text" wx:for="{{clist}}">
+    课程名称：{{item.CourseName}}
+    上课地点：{{item.place}}
+    上课老师：{{item.teacher}}
+    上课周数：{{item.week}}
+    上课节数：{{item.pitch}}
+  </text>
+  <view class="ok" bindtap="ok">确认</view>
+</view>
