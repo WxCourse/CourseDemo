@@ -1,2 +1,66 @@
-<!--pages/core/user/user.wxml-->
-<text>pages/core/user/user.wxml</text>
+<view class="weui-cells">
+    <view class="weui-cell">
+        <!-- <view class="avatar-patent">
+            <image class="avatar-image" src="{{userInfo.avatarUrl}}" mode="scaleToFill"></image>
+        </view>
+        <view class="nickname">{{userInfo.nickName}}</view> -->
+
+        <view class="login">
+            <image src="../../../images/user/login.jpg" style="width:220rpx;height:220rpx;border-radius:50%"/>
+            <text class="weui-top-word">用户登录</text>
+        </view>
+
+    <!-- <button > -->
+        <view class="fenge-top">
+            <view class="fenge-cell-left">
+            <text class="fenge-word" >个人中心</text>
+            </view>
+            <view class="fenge-cell-right">
+                <image class="fenge-icon" src="../../../images/user/wodekuozhan.png" ></image>
+            </view>
+        </view>
+    <!-- </button>
+    <button > -->
+        <view class="fenge">
+            <view class="fenge-cell-left">
+            <text class="fenge-word" >学籍绑定</text>
+            </view>
+            <view class="fenge-cell-right">
+                <image class="fenge-icon" src="../../../images/user/bangding.png" ></image>
+            </view>
+        </view>
+    <!-- </button>
+    <button > -->
+        <view class="fenge">
+            <view class="fenge-cell-left">
+            <text class="fenge-word" >分享课表</text>
+            </view>
+            <view class="fenge-cell-right">
+                <image class="fenge-icon" src="../../../images/user/fenxiang.png" ></image>
+            </view>
+        </view>
+        
+    <!-- <button > -->
+        <view class="fenge">
+            <view class="fenge-cell-left">
+            <text class="fenge-word" >使用帮助</text>
+            </view>
+            <view class="fenge-cell-right">
+                <image class="fenge-icon" src="../../../images/user/help.png" ></image>
+            </view>
+        </view>
+    <!-- <button > -->
+        <view class="fenge">
+            <view class="fenge-cell-left">
+            <text class="fenge-word" >关于我们</text>
+            </view>
+            <view class="fenge-cell-right">
+                <image class="fenge-icon" src="../../../images/user/xinbaniconshangchuan-.png" ></image>
+            </view>
+        </view>
+
+        
+
+
+    </view> 
+</view>
