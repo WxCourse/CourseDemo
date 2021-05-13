@@ -1,4 +1,4 @@
-// pages/core/main/main.js
+// pages/more/compusNews/compusNews.js
 Page({
 
   /**
@@ -7,43 +7,7 @@ Page({
   data: {
 
   },
-  // 界面跳转
-  goOne:function () {
-    wx.navigateTo({
-      url:'/pages/indexNav/books/lib',
-    })
-  },
 
-  goTwo:function(){
-    wx.navigateTo({
-      url: '/pages/indexNav/socre/socre',
-    })
-  },
-  goThree:function(){
-    wx.navigateTo({
-      url: '/pages/indexNav/classroom/classroom',
-    })
-  },
-  goFour:function(){
-    wx.navigateTo({
-      url: '/pages/indexNav/student/student',
-    })
-  },
-  goFive:function(){
-    wx.navigateTo({
-      url: '/pages/indexNav/calendar/calendar',
-    })
-  },
-  goSix:function(){
-    wx.navigateTo({
-      url: '/pages/more/compusNews/compusNews',
-    })
-  },
-  goSeven:function(){
-    wx.navigateTo({
-      url: '/pages/more/funny/funny',
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

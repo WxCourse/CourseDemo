@@ -1,0 +1,18 @@
+<view class="bac">
+  <view class="title">《{{bookshow}}》</view>
+  <view class="intro">{{introduce}}</view>
+</view>
+<scroll-view scroll-y="true">
+  <view class="top">馆藏信息</view>
+  <van-divider />
+  <view class="content" wx:for="{{dList}}" wx:key="index">
+    <view class="left">
+      <text>{{item.number}}</text>
+      <view class="little"><van-icon name="location-o" />{{item.place}}</view>
+    </view>
+    <view class="right">
+      <text class="jia">在架上</text>
+      <text class="tai">书刊状态</text>
+    </view>
+  </view>
+</scroll-view>

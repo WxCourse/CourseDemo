@@ -1,11 +1,28 @@
-// pages/indexNav/lib.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    value:"",
+    keyWord:"",
+    list:[
+  {
+        id:6,
+        title:"毛泽东思想",
+        introduce:"毛泽东思想和中国特色社会主义理论体系概论",
+        author:"本书编写组",
+        borrow:"45"
+  }
+  ],
+  list2:[
+    {
+        id:6,
+        title:"毛泽东思想",
+        introduce:"毛泽东思想和中国特色社会主义理论体系概论",
+        author:"本书编写组",
+        borrow:"45"
+    }
+  ],
     BList:[
       {
         id:1,
@@ -44,19 +61,17 @@ Page({
       },
     ]
   },
-  onChange(e) {
-    this.setData({
-      value: e.detail,
-    });
+  onSearch:function(e){
   },
-  onSearch() {
-    Toast('搜索' + this.data.value);
-    
-  },
-  onClick(e) {
-    Toast('搜索' + this.data.value);
+  onCancel:function(){
 
   },
+  jump:function(){
+    wx.navigateTo({
+      url: '/pages/indexNav/books/searchShow',
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载
@@ -69,7 +84,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-    
+
   },
 
   /**

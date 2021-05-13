@@ -4,9 +4,9 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
-    "enhance": false,
+    "enhance": true,
     "postcss": true,
     "preloadBackgroundData": false,
     "minified": true,
@@ -23,7 +23,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -42,7 +42,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.0.4",
   "appid": "wx5fb998ea00cfe06a",
-  "projectname": "wechat_Demo",
+  "projectname": "wechat_Demo2",
   "debugOptions": {
     "hidedInDevtools": []
   },

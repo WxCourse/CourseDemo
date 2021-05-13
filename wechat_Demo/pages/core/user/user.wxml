@@ -19,8 +19,7 @@
                 <image class="fenge-icon" src="../../../images/user/wodekuozhan.png" ></image>
             </view>
         </view>
-    <!-- </button>
-    <button > -->
+    <!-- </button>-->
         <view class="fenge">
             <view class="fenge-cell-left">
             <text class="fenge-word" >学籍绑定</text>
@@ -29,8 +28,7 @@
                 <image class="fenge-icon" src="../../../images/user/bangding.png" ></image>
             </view>
         </view>
-    <!-- </button>
-    <button > -->
+    <!-- </button> -->
         <view class="fenge">
             <view class="fenge-cell-left">
             <text class="fenge-word" >分享课表</text>
@@ -57,10 +55,6 @@
             <view class="fenge-cell-right">
                 <image class="fenge-icon" src="../../../images/user/xinbaniconshangchuan-.png" ></image>
             </view>
-        </view>
-
-        
-
-
+        </view> 
     </view> 
 </view>

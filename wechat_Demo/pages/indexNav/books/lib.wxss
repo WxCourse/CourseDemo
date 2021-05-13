@@ -22,7 +22,8 @@
 .middle{
   background-color: white;
   height: 100%;
-  border-radius: 50rpx;
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
 }
 .search{
   margin-top: 30rpx;
@@ -79,6 +80,11 @@
   color: gray;
   overflow: hidden;
   text-overflow: ellipsis;
+  letter-spacing: 5rpx;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 .book-right .book-B{
   margin-top: 40rpx;
@@ -95,3 +101,4 @@
   border: 2rpx solid gray;
   padding: 5rpx 10rpx;
 }
+

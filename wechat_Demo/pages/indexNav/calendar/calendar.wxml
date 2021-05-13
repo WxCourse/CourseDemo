@@ -1,0 +1,6 @@
+<!--pages/indexNav/calendar/calendar.wxml-->
+<view style="display:flex;flex-direction:row;">
+		<view style="flex:1">
+	        <image src="/images/nav/pic/calendar.jpg" mode="widthFix" style="height:100%;width:750rpx"></image>
+	</view>
+	</view> 
