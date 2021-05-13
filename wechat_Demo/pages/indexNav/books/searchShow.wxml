@@ -1,5 +1,6 @@
 <view class="bac">
   <view class="title">《{{bookshow}}》</view>
+  <view class="author">{{author}}</view>
   <view class="intro">{{introduce}}</view>
 </view>
 <scroll-view scroll-y="true">
