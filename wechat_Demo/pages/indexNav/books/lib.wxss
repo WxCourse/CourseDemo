@@ -1,0 +1,97 @@
+.bac{
+  background: linear-gradient(to bottom,#38c3a1,#f7fcfb);
+  height: 100%;
+  width: 100%;
+}
+.top{
+  width: 100%;
+  height: 230rpx;
+}
+.center{
+  text-align: center;
+}
+.lib001{
+  margin-top: 30rpx;
+  height: 110rpx;
+  width: 110rpx;
+}
+.title{
+  font-size: 30rpx;
+  color: rgb(63, 61, 61);
+}
+.middle{
+  background-color: white;
+  height: 100%;
+  border-radius: 50rpx;
+}
+.search{
+  margin-top: 30rpx;
+}
+.jie{
+  margin-left: 30rpx;
+  font-size: 35rpx;
+  border-bottom: #000000 solid 2rpx;
+}
+.content{
+  background-color: white;
+  padding :0 30rpx;
+}
+.content view:nth-child(1) .book-right .book-title view:nth-child(2){
+  color: #DC143C;
+}
+.content view:nth-child(2) .book-right .book-title view:nth-child(2){
+  color: #FF4500;
+}
+.content view:nth-child(3) .book-right .book-title view:nth-child(2){
+  color: #FF8C00;
+}
+.books{
+  display: flex;
+  justify-content: space-between;
+  padding: 30rpx;
+  border-bottom: 4rpx solid #efefef;
+}
+.bookpic{
+  width: 90rpx;
+  height: 90rpx;
+  margin-left: 30rpx;
+  margin-top: 65rpx;
+}
+.book-right{
+  width: 70%;
+  margin-left: 20rpx;
+  padding: 10rpx 0;
+}
+.book-right .book-title{
+  font-size: 35rpx;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.book-right .book-title view:nth-child(2){
+  color: gray;
+  font-style: oblique;
+}
+.book-right .book-introduce{
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  color: gray;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.book-right .book-B{
+  margin-top: 40rpx;
+  font-size: 25rpx;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.book-right .book-B view:nth-child(2){
+  font-size: 20rpx;
+}
+.book-right .book-B view:nth-child(2) text:nth-child(1){
+  border: 2rpx solid gray;
+  padding: 5rpx 10rpx;
+}

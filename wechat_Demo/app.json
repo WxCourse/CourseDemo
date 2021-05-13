@@ -5,7 +5,8 @@
     "pages/main",
     "pages/logs/logs",
     "pages/core/user/user",
-    "pages/core/course/course"
+    "pages/core/course/course",
+    "pages/indexNav/books/lib"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -24,7 +25,6 @@
         "selectedIconPath": "images/nav/tabbar/index@select.png",
         "text": "首页"
       },
-      
       {
         "pagePath": "pages/core/course/course",
         "iconPath": "images/nav/tabbar/more.png",

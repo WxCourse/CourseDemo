@@ -15,7 +15,7 @@
 	<!-- 五个图标导航区域 -->
     <view class="navContainer">
         <view class="navItem">
-          <text class="iconfont icon-booking_cur"></text>
+          <text class="iconfont icon-booking_cur" bindtap="go"></text>
           <text>图书馆藏</text>
         </view>
         <view class="navItem">
