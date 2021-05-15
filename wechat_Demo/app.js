@@ -13,7 +13,7 @@ App({
       }
     })
   },
-  globalData: {
+  appData: {
     userInfo: null
   }
 })

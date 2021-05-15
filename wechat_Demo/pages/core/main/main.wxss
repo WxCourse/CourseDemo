@@ -36,38 +36,50 @@ swiper {
 }
 
 .navItem text {
-  font-size: 26rpx;
-  color: #38c3a1;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+  color: #a9b7b7;
 }
 
 /* 校园新闻部分 */
 /* 头部 */
 .recommendContainer {
-  padding: 20rpx;
+  padding: 40rpx 0rpx 1rpx;
+  background-color: #f4f4f4;
 }
 .recommendContainer .header{
   padding-bottom: 20rpx;
   background-color: rgb(255, 255, 255);
 }
+
 .recommendContainer .header .title {
+  margin: 20rpx;
   font-size: 40rpx;
   font-weight: 700;
   line-height: 80rpx;
-  color: #38c3a1;
+  color: #252136;
 }
 .recommendContainer .header .more {
   float: right;
-  margin: 20rpx;
+  margin: 30rpx;
   /* border: 1rpx solid #38c3a1;
   padding: 5rpx 15rpx;
   border-radius: 30rpx; */
   font-size: 26rpx;
-  color: #38c3a1;
+  color: #252136;
 } 
 /* 推荐内容区域 */
+.recommendScroll-box {
+  padding: 1% 1%; 
+  background-color: #fff;
+  /* border-radius: 20rpx; */
+  box-shadow: 8rpx 8rpx 8rpx 8rpx #38c3a1;
+}
+
 .scrollItem text {
   font-size: 35rpx;
-  color: #38c3a1;
+  letter-spacing:4rpx;
+  color: #c9c9c9;
   /* text是靠内容撑开的，没有办法可以切割块元素，所以需要display */
   /* display: block; */
   /* 多行文本溢出省略号代替 */
@@ -77,7 +89,7 @@ swiper {
   -webkit-box-orient: vertical;/* 设置对齐模式*/
   -webkit-line-clamp: 4;/*设置多行的行数，就是第几行溢出需要出现省略号*/
   padding: 5rpx 15rpx;
-  border-radius: 30rpx;
-  border:1px solid rgb(56,195,161);
-  background-color: rgb(255, 255, 255);
+  /* border-radius: 30rpx; */
+  /* border:1px solid rgb(56,195,161); */
+  /* background-color: rgb(255, 255, 255); */
 }

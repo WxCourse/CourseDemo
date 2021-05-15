@@ -1,12 +1,12 @@
 {
   "pages": [
     "pages/core/main/main",
-    "pages/index/index",
     "pages/core/user/user",
+    "pages/index/index",
+    "pages/indexNav/student/student",
     "pages/main",
     "pages/logs/logs",
     "pages/core/course/course",
-    "pages/indexNav/student/student",
     "pages/indexNav/calendar/calendar",
     "pages/indexNav/classroom/classroom",
     "pages/indexNav/socre/socre",
@@ -16,13 +16,13 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#38c3a1",
+    "navigationBarBackgroundColor": "#43adf7",
     "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
+    "selectedColor": "#a9b7b7",
     "borderStyle": "white",
     "list": [
       {
@@ -48,6 +48,11 @@
   "sitemapLocation": "sitemap.json",
   "usingComponents": {
     "van-divider": "@vant/weapp/divider",
-    "van-card": "@vant/weapp/card"
+    "van-card": "@vant/weapp/card",
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-button": "@vant/weapp/button/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-share-sheet": "@vant/weapp/share-sheet/index"
   }
 }

@@ -5,6 +5,20 @@
   padding-bottom: 40rpx;
 }
 
+.login-box {
+  /* margin-top: 0%; */
+  /* 登录距离阴影盒子底部的距离 */
+  padding: 15% 1%; 
+  background-color: #fff;
+  border-radius: 20rpx;
+  box-shadow: 8rpx 8rpx 8rpx 8rpx #888888;
+}
+
+.login-box>input{
+  margin: 5% 0 8% 0;
+  border-bottom: 1rpx solid lightgray;
+}
+
 .left-top-sign{
   font-size: 120rpx;
   color: #f8f8f8;
@@ -15,8 +29,8 @@
 .welcome{
   position:relative;
   left: 50rpx;
-  top: -90rpx;
-  font-size: 46rpx;
+  top: -80rpx;
+  font-size: 40rpx;
   color: #555;
 }
 
@@ -54,7 +68,7 @@
   width: 100%;
 }
 .confirm-btn{
-  width: 630rpx!important;
+  width: 580rpx!important;
   height: 76rpx;
   line-height: 76rpx;
   border-radius: 50rpx;
@@ -67,15 +81,23 @@
 .confirm-btn2:after{
   border-radius: 100px;
 }
+.register-section {
+  position:absolute;
+  font-size: 28rpx;
+  color: #43adf7;
+  text-align: left;
+  margin-left: 60rpx;
+  margin-top: 40rpx;
+}
 
 .forget-section{
   font-size: 28rpx;
   color: #38c3a1;
-  text-align: center;
+  text-align: right;
+  margin-right: 60rpx;
   margin-top: 40rpx;
 }
-
-.register-section{
+/* .register-section{
   position:absolute;
   left: 0;
   bottom: 50rpx;
@@ -84,8 +106,13 @@
   color: #606266;
   text-align: center;
 
+} */
+
+.three-line {
+  margin: 8% 0;
+  text-align: center;
+  font-size: 24rpx;
+  color: gray;
 }
-.register-section text{
-  color: #38c3a1;
-  margin-left: 10rpx;
-}
+
+
