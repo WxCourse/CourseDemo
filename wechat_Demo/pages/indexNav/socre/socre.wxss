@@ -1,0 +1,23 @@
+.top{
+  background: linear-gradient(to bottom,#38c3a1,#97f7e4);
+  height: 230rpx;
+  width: 100%;
+}
+.top-c{
+  text-align: center;
+  padding-top: 70rpx;
+}
+.top-c van-icon{
+  color: white;
+}
+.text{
+  font-size: 30rpx;
+  color: white;
+}
+.middle{
+  background-color: rgb(241, 240, 240);
+  height: 100%;
+}
+.blank{
+  height: 20rpx;
+}

@@ -1,5 +1,6 @@
 /**app.wxss**/
 @import "/images/iconfont/iconfont.wxss";
+@import '/miniprogram_npm/@vant/weapp/transition/index.wxss';
 page {
 height: 100%;
 }
@@ -12,3 +13,4 @@ height: 100%;
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+

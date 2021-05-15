@@ -13,8 +13,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/core/course/course",
-          "pathName": "pages/core/course/course",
+          "name": "pages/indexNav/books/searchShow",
+          "pathName": "pages/indexNav/books/searchShow",
           "query": "",
           "scene": null
         }

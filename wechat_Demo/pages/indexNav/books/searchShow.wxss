@@ -1,0 +1,62 @@
+.bac{
+  background: linear-gradient(to bottom,#38c3a1,#bdf1e7);
+  height: 300rpx;
+  width: 100%;
+}
+.title{
+  text-align: center;
+  padding-top: 15rpx;
+  font-size: 40rpx;
+}
+.author{
+  font-size: 30rpx;
+  text-align: center;
+  margin-top: 10rpx;
+  color: rgb(61, 61, 61);
+}
+.intro{
+  font-size: 25rpx;
+  margin-top: 10rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  color: rgb(99, 98, 98);
+}
+.top{
+  font-size: 30rpx;
+  color: rgb(105, 105, 105);
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.content{
+  padding-left: 70rpx;
+  padding-bottom: 20rpx;
+  padding-top: 20rpx;
+  border-bottom:2rpx solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+.little{
+  font-size: 30rpx;
+  color: gray;
+}
+.right{
+  font-size: 25rpx;
+  color: rgb(54, 114, 182);
+  height: 45rpx;
+  width: 220rpx;
+  line-height: 44rpx;
+  margin-top: 20rpx;
+  margin-right: 15rpx;
+}
+.jia{
+  border: solid 2rpx rgb(68, 141, 236);
+  background-color: rgb(64, 183, 238);
+  color: white;
+  border-top-left-radius: 6rpx;
+  border-bottom-left-radius: 6rpx;
+  text-align: center;
+}
+.tai{
+  border: solid 2rpx ;
+  text-align: center;
+}
