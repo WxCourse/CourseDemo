@@ -1,2 +1,36 @@
-<!--pages/indexNav/books/lib.wxml-->
-<text>pages/indexNav/books/lib.wxml</text>
+<view class="bac">
+<!-- 头部 -->
+<view class="top">
+  <view class="center"> 
+  <image src="/images/books/lib001.png" mode="aspectFit" class="lib001"></image>
+  <view class="title">
+    <text>借阅排行榜统计为借阅次数前5名</text>
+  </view>
+</view>
+</view>
+<!-- 下方 -->
+<scroll-view class="middle" scroll-y="true">
+  <view class="search">
+  <van-search  value='{{keyWord}}' placeholder="请输入书籍名" show-action bindconfirm="onSearch" bind:cancel="onCancel"/>
+<text class="jie">借阅排行榜</text>
+  </view>
+  <view class="content">
+  <view class="books" wx:for="{{BList}}" wx:key="index" bindtap="jump">
+    <image src="/images/books/book.png" class="bookpic"></image>
+    <view class="book-right">
+      <view class="book-title">
+        <view>《{{item.title}}》</view>
+        <view>{{index + 1}}</view>
+      </view>
+      <view class="book-introduce">{{item.introduce}}</view>
+      <view class="book-B">
+        <view>{{item.author}}</view>
+     <view>
+      <text>借阅次数：{{item.borrow}}</text>
+    </view>
+    </view>
+  </view>
+  </view>
+</view>
+</scroll-view>
+</view>

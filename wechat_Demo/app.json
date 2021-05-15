@@ -12,7 +12,8 @@
     "pages/indexNav/socre/socre",
     "pages/more/compusNews/compusNews",
     "pages/more/funny/funny",
-    "pages/indexNav/books/lib"
+    "pages/indexNav/books/lib",
+    "pages/indexNav/books/searchShow"
   ],
   "window": {
     "backgroundTextStyle": "light",

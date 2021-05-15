@@ -5,7 +5,47 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    CList1:[
+      {
+        id:1,
+        name:"高等数学（下）",
+        socre:"95",
+        label:"描述信息"
+      },
+      {
+        id:2,
+        name:"大学英语",
+        socre:"80",
+        label:"描述信息"
+      },
+      {
+        id:3,
+        name:"JAVA面向对象",
+        socre:"80",
+        label:"描述信息"
+      }
+    ],
+    CList2:[
+      {
+        id:1,
+        name:"高等数学（上）",
+        socre:"87",
+        label:"描述信息"
+      },
+      {
+        id:2,
+        name:"大学英语",
+        socre:"75",
+        label:"描述信息"
+      },
+      {
+        id:3,
+        name:"C语言程序设计",
+        socre:"66",
+        label:"描述信息"
+      }
+    ]
+   
   },
 
   /**

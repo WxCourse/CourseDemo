@@ -1,48 +1,30 @@
-// pages/core/main/main.js
+// pages/indexNav/books/searchShow.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
-  },
-  // 界面跳转
-  goOne:function () {
-    wx.navigateTo({
-      url:'/pages/indexNav/books/lib',
-    })
-  },
-
-  goTwo:function(){
-    wx.navigateTo({
-      url: '/pages/indexNav/socre/socre',
-    })
-  },
-  goThree:function(){
-    wx.navigateTo({
-      url: '/pages/indexNav/classroom/classroom',
-    })
-  },
-  goFour:function(){
-    wx.navigateTo({
-      url: '/pages/indexNav/student/student',
-    })
-  },
-  goFive:function(){
-    wx.navigateTo({
-      url: '/pages/indexNav/calendar/calendar',
-    })
-  },
-  goSix:function(){
-    wx.navigateTo({
-      url: '/pages/more/compusNews/compusNews',
-    })
-  },
-  goSeven:function(){
-    wx.navigateTo({
-      url: '/pages/more/funny/funny',
-    })
+    dList:[
+      {
+      id:1,
+      place:"图书馆2层101室",
+      number:"1247.7/298"
+      },
+      {
+        id:2,
+        place:"图书馆3层101室",
+        number:"1307.7/298"
+        },
+        {
+          id:3,
+          place:"图书馆4层101室",
+          number:"1277.7/298"
+          }
+    ],
+    bookshow:"法律文书写作",
+    introduce:"法律文书写作是高等学校法学专业的一门应用写作课程。设置该课程的目的是培养和提高适应社会主义市场经济和现代化法治建设需要的各类法律专门人才的业务能力，为将来从事各种法律事务工作做准备",
+    author:"陈卫东，刘计划编著"
   },
   /**
    * 生命周期函数--监听页面加载

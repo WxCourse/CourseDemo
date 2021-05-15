@@ -2,7 +2,7 @@
 <!-- 选择周 -->
 <view class="section">
 <picker bindchange="bindPickerChange" mode="selector" value="{{index}}" range="{{array}}">
-  <view class="picker">{{array[index]}}▼</view>
+  <view class="picker">{{array[index]}} ▼</view>
 </picker>
 </view>
 <!-- 顶部 -->

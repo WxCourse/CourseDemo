@@ -1,2 +1,27 @@
-<!--pages/indexNav/socre/socre.wxml-->
-<text>pages/indexNav/socre/socre.wxml</text>
+<view class="top">
+    <view class="top-c">
+      <van-icon name="records" />
+    <view class="text">成绩来自教务系统，如有问题请联系教务处</view>
+</view>
+  </view>
+  <scroll-view scroll-y="true" class="middle">
+    <van-divider contentPosition="center" customStyle="color: #6699FF; border-color:#6699FF; font-size: 18px;">
+  大一下学期
+  </van-divider>
+  <view class="botle" wx:for="{{CList1}}" wx:key="index">
+  <van-cell-group>
+  <van-cell title="{{item.name}}" value="{{item.socre}}" label="{{item.label}}" />
+    </van-cell-group>
+    <view class="blank"></view>
+  </view>
+    <van-divider contentPosition="center" customStyle="color:#6699FF; border-color: #6699FF; font-size: 18px;">
+  大一上学期
+  </van-divider>
+  <view class="botle" wx:for="{{CList2}}" wx:key="index">
+  <van-cell-group>
+  <van-cell title="{{item.name}}" value="{{item.socre}}" label="{{item.label}}" />
+    </van-cell-group>
+    <view class="blank"></view>
+  </view>
+  </scroll-view>
+
