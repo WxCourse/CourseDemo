@@ -1,2 +1,22 @@
 /* pages/indexNav/student/student.wxss */
- 
+.xueya{
+  background: linear-gradient(to bottom,#43adf7,#f7fcfb);
+  height: 100%;
+  width: 100%;
+}
+.top{
+  width: 100%;
+  height: 230rpx;
+}
+.title{
+  padding: 65rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #f7fcfb;
+}
+.middle{
+  background-color: white;
+  height: 100%;
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+}

@@ -39,7 +39,7 @@
   <view class="recommendContainer" >
     <!-- 头部 -->
 		<view class="header">
-      <text class="title" > | 校园新闻</text>
+      <text class="title" > 校园新闻</text>
       <text class="more" bindtap="goSix">更多 ></text>
     </view>
 		<!-- 主体内容区域 -->
@@ -53,7 +53,7 @@
   <view class="recommendContainer">
     <!-- 头部 -->
 		<view class="header" >
-      <text class="title"> | 考研趣事</text>
+      <text class="title"> 考研趣事</text>
       <text class="more" bindtap="goSeven">更多 ></text>
     </view>
 		<!-- 主体内容区域 -->
@@ -67,8 +67,7 @@
   <view class="recommendContainer">
     <!-- 头部 -->
 		<view class="header" >
-      <text class="title"> | 关于我们</text>
-      <text class="more" bindtap="goSeven">更多 ></text>
+      <text class="title"> 关于我们</text>
     </view>
 		<!-- 主体内容区域 -->
 		<!-- scroll-view -->

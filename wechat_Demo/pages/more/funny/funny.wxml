@@ -1,2 +1,20 @@
 <!--pages/more/funny/funny.wxml-->
-<text>pages/more/funny/funny.wxml</text>
+<view class="kaoyan">
+<!-- 头部 -->
+<view class="top">
+  <view class="title">
+    <text>考研时分，你我同在</text>
+  </view>
+</view>
+<view class="recommendContainer,middle" >
+		<!-- 主体内容区域 -->
+    <view class="recommendScroll,scrollItem" wx:for="{{NList}}" wx:key="index" bindtap="jump">
+      <scroll-view enable-flex scroll-x>
+        <view >
+          <text class="faBuTitle">{{item.NewsTitle}}</text>
+          <view class="faBuTime">{{item.time}}</view>
+        </view>
+      </scroll-view>
+    </view>
+</view>
+</view>

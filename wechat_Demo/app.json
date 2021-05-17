@@ -1,6 +1,10 @@
 {
   "pages": [
     "pages/core/main/main",
+    "pages/more/funny/funnyShow",
+    "pages/more/funny/funny",
+    "pages/more/compusNews/compusNews",
+    "pages/more/compusNews/searchShowTwo",
     "pages/core/user/user",
     "pages/index/index",
     "pages/indexNav/student/student",
@@ -10,8 +14,6 @@
     "pages/indexNav/calendar/calendar",
     "pages/indexNav/classroom/classroom",
     "pages/indexNav/socre/socre",
-    "pages/more/compusNews/compusNews",
-    "pages/more/funny/funny",
     "pages/indexNav/books/lib",
     "pages/indexNav/books/searchShow"
   ],

@@ -42,7 +42,6 @@ swiper {
 }
 
 /* 校园新闻部分 */
-/* 头部 */
 .recommendContainer {
   padding: 40rpx 0rpx 1rpx;
   background-color: #f4f4f4;
@@ -53,15 +52,15 @@ swiper {
 }
 
 .recommendContainer .header .title {
-  margin: 20rpx;
-  font-size: 40rpx;
+  margin: 30rpx;
+  font-size: 35rpx;
   font-weight: 700;
   line-height: 80rpx;
   color: #252136;
 }
 .recommendContainer .header .more {
   float: right;
-  margin: 30rpx;
+  margin: 20rpx;
   /* border: 1rpx solid #38c3a1;
   padding: 5rpx 15rpx;
   border-radius: 30rpx; */
@@ -77,9 +76,9 @@ swiper {
 }
 
 .scrollItem text {
-  font-size: 35rpx;
+  font-size: 30rpx;
   letter-spacing:4rpx;
-  color: #c9c9c9;
+  color: gray;
   /* text是靠内容撑开的，没有办法可以切割块元素，所以需要display */
   /* display: block; */
   /* 多行文本溢出省略号代替 */
