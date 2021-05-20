@@ -1,1 +1,53 @@
 /* pages/more/funny/funny.wxss */
+
+.kaoyan{
+  background: linear-gradient(to bottom,#43adf7,#f7fcfb);
+  height: 100%;
+  width: 100%;
+}
+.top{
+  width: 100%;
+  height: 230rpx;
+}
+.title{
+  padding: 65rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #f7fcfb;
+}
+.middle{
+  background-color: white;
+  height: 100%;
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+}
+/* 头部 */
+.recommendContainer {
+  padding: 20rpx 0rpx 1rpx;
+  background-color: #f4f4f4;
+}
+/* 正文内容 */
+.scrollItem{
+  line-height: 60rpx;
+  letter-spacing:4rpx;
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid grey;
+}
+.scrollItem .faBuTitle {
+  line-height: 60rpx;
+  letter-spacing:4rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;/* 设置对齐模式*/
+  -webkit-line-clamp: 1;/*设置多行的行数，就是第几行溢出需要出现省略号*/
+  font-size: 28rpx;
+  color: #252136;
+}
+.scrollItem .faBuTime {
+  font-size: 25rpx;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

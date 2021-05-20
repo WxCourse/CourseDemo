@@ -1,7 +1,7 @@
 <!--pages/core/main/main.wxml-->
 <view class="indexContainer"> 
   <!-- 轮播图区域 -->
-  <swiper class="banners"  autoplay indicator-dots indicator-color="ivory" indicator-active-color="#38c3a1" circular>
+  <swiper class="banners"  autoplay indicator-dots indicator-color="ivory" indicator-active-color="#43adf7" circular>
 		<swiper-item>  
 			<image mode="widthFix" src="/images/nav/pic/flow1.jpg"></image>
     </swiper-item>
@@ -39,28 +39,41 @@
   <view class="recommendContainer" >
     <!-- 头部 -->
 		<view class="header">
-      <text class="title" >校园新闻</text>
+      <text class="title" > 校园新闻</text>
       <text class="more" bindtap="goSix">更多 ></text>
     </view>
 		<!-- 主体内容区域 -->
     <!-- scroll-view -->
 		<scroll-view class="recommendScroll" enable-flex scroll-x>
-			<view class="scrollItem">
-				<text>考研自习室申请即将开始，申请流程如下：先填好信息去学办盖章，再进群，再填好信息，等待链接的发放考研自习室申请即将开始，申请流程如下：先填好信息去学办盖章，再进群，再填好信息，等待链接的发放</text>
+			<view class="scrollItem,recommendScroll-box">
+				<text>喜迎党代会之请回答：2015-2021|升升升，飕飕飕！进来体验“湖工商速度”！学校深入学习贯彻习近平新时代中国特色社会主义思想，砥砺前行。</text>
 			</view>
     </scroll-view>
   </view>
   <view class="recommendContainer">
     <!-- 头部 -->
 		<view class="header" >
-      <text class="title">考研趣事</text>
+      <text class="title"> 考研趣事</text>
       <text class="more" bindtap="goSeven">更多 ></text>
     </view>
 		<!-- 主体内容区域 -->
 		<!-- scroll-view -->
 		<scroll-view class="recommendScroll" enable-flex scroll-x>
-			<view class="scrollItem">
-				<text>考研自习室申请即将开始，申请流程如下：先填好信息去学办盖章，再进群，再填好信息，等待链接的发放考研自习室申请即将开始，申请流程如下：先填好信息去学办盖章，再进群，再填好信息，等待链接的发放</text>
+			<view class="scrollItem,recommendScroll-box">
+				<text>考研自习室申请即将开始，申请流程如下：先填好信息去学办盖章，再进相应QQ群，然后填好个人专业信息，等待抢座链接的发放，先到先得哟~~~</text>
+			</view>
+    </scroll-view>
+  </view>
+  <view class="recommendContainer">
+    <!-- 头部 -->
+		<view class="header" >
+      <text class="title"> 关于我们</text>
+    </view>
+		<!-- 主体内容区域 -->
+		<!-- scroll-view -->
+		<scroll-view class="recommendScroll" enable-flex scroll-x>
+			<view class="scrollItem,recommendScroll-box">
+				<text>我们是一群有热情的小团队，牛顿曾经说过：“如果说我看得比别人更远些，那是因为我站在巨人的肩膀上”，我们也是站在巨人的肩膀上展示自我。</text>
 			</view>
     </scroll-view>
   </view>

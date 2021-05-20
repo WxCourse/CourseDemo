@@ -1,9 +1,9 @@
 <view class="weui-cells">
     <view class="weui-cell">
-        <!-- <view class="avatar-patent">
+        <view class="avatar-patent">
             <image class="avatar-image" src="{{userInfo.avatarUrl}}" mode="scaleToFill"></image>
         </view>
-        <view class="nickname">{{userInfo.nickName}}</view> -->
+        <view class="nickname">{{username}}</view>
 
         <view class="login">
             <image src="../../../images/user/login.jpg" style="width:220rpx;height:220rpx;border-radius:50%"/>

@@ -4,15 +4,15 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": false,
+    "urlCheck": true,
     "es6": true,
-    "enhance": true,
+    "enhance": false,
     "postcss": true,
     "preloadBackgroundData": false,
     "minified": true,
     "newFeature": true,
     "coverView": true,
-    "nodeModules": true,
+    "nodeModules": false,
     "autoAudits": false,
     "showShadowRootInWxmlPanel": true,
     "scopeDataCheck": false,
@@ -23,7 +23,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -41,8 +41,8 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.0.4",
-  "appid": "wx5fb998ea00cfe06a",
-  "projectname": "wechat_Demo2",
+  "appid": "wx0b81172fffc3c4cf",
+  "projectname": "wechat_Demo",
   "debugOptions": {
     "hidedInDevtools": []
   },

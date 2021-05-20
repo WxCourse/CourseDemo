@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index",
+    "van-divider": "@vant/weapp/divider/index"
+  },
+  "navigationBarBackgroundColor": "#43adf7",
+  "navigationBarTitleText": "校园新闻",
+  "navigationBarTextStyle":"white"
 }

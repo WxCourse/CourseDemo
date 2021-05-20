@@ -1,2 +1,24 @@
 <!--pages/indexNav/student/student.wxml-->
-<text>pages/indexNav/student/student.wxml</text>
+<view class="xueya">
+  <!-- 头部 -->
+  <view class="top">
+    <view class="title">
+      <text>绩点（GPA）</text>
+    </view>
+    <view class="banner,moddle">
+      <van-dialog id="van-dialog" />
+      <van-cell-group class="text" title="计划内课程"  >
+        <van-cell title="通过" value="0门" />
+        <van-cell title="未通过" value="0门"  />
+        <van-cell title="在读" value="0门" />
+        <van-cell title="未修" value="0门" />
+      </van-cell-group>
+      <van-cell-group class="text" title="计划外课程">
+        <van-cell title="通过" value="0门" />
+        <van-cell title="未通过" value="0门"  />
+        <van-cell title="在读" value="0门" />
+        <van-cell title="未修" value="0门" />
+      </van-cell-group>
+  </view>
+ </view>
+</view>
