@@ -3,7 +3,7 @@
     "van-search": "@vant/weapp/search/index",
     "van-divider": "@vant/weapp/divider/index"
   },
-  "navigationBarBackgroundColor": "#38c3a1",
+  "navigationBarBackgroundColor": "#43adf7",
   "navigationBarTitleText": "图书馆藏",
   "navigationBarTextStyle":"white"
   

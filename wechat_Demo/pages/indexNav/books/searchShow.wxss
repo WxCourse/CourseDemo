@@ -1,5 +1,5 @@
 .bac{
-  background: linear-gradient(to bottom,#38c3a1,#bdf1e7);
+  background: linear-gradient(to bottom,#43adf7,#a7d8fc);
   height: 300rpx;
   width: 100%;
 }
@@ -19,7 +19,7 @@
   margin-top: 10rpx;
   padding-left: 20rpx;
   padding-right: 20rpx;
-  color: rgb(99, 98, 98);
+  color: rgb(78, 78, 78);
 }
 .top{
   font-size: 30rpx;

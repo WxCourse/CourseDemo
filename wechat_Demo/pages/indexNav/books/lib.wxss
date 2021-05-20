@@ -1,5 +1,5 @@
 .bac{
-  background: linear-gradient(to bottom,#38c3a1,#f7fcfb);
+  background: linear-gradient(to bottom,#43adf7,#eef4f8);
   height: 100%;
   width: 100%;
 }

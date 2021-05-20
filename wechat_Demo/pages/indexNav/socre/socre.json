@@ -6,5 +6,6 @@
   "van-divider": "@vant/weapp/divider/index"
   },
   "navigationBarTitleText": "我的成绩",
+  "navigationBarBackgroundColor": "#43adf7",
   "navigationBarTextStyle":"white"
 }
