@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    colorArrays: [ "#FFA07A", "#90C650", "#D8AA5A", "#AD9DD0", "#0A9A70", "#61BC69", "#12AEF3"],
+    colorArrays: [ "#aaa154", "#2e86c5", "#D8AA5A", "#AD9DD0", "#0A9A70", "#61BC69", "#12AEF3"],
     wlist: [
       { "WhichDay": 1, "CourseBegin": 1, "CourseNumber": 3, "CourseName": "高等数学", "place":"@至诚楼A301"},
       { "WhichDay": 1, "CourseBegin": 5, "CourseNumber": 3, "CourseName": "高等数学" , "place":"@至诚楼A301"},
@@ -70,7 +70,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('onLoad')
+   
   },
 
   /**

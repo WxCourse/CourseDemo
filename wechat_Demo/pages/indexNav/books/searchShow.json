@@ -3,5 +3,6 @@
     "van-icon": "@vant/weapp/icon/index"
   },
   "navigationBarTitleText": "图书馆藏",
+  "navigationBarBackgroundColor": "#43adf7",
   "navigationBarTextStyle":"white"
 }

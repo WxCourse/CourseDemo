@@ -1,5 +1,5 @@
 .top{
-  background: linear-gradient(to bottom,#38c3a1,#97f7e4);
+  background: linear-gradient(to bottom,#43adf7,#89ceff);
   height: 230rpx;
   width: 100%;
 }

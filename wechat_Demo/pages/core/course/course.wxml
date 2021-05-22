@@ -1,4 +1,3 @@
-
 <!-- 选择周 -->
 <view class="section">
 <picker bindchange="bindPickerChange" mode="selector" value="{{index}}" range="{{array}}">
@@ -8,28 +7,28 @@
 <!-- 顶部 -->
 <view class="top">
 <view class="month" style="font-size:9.5pt">{{monthNow}}月</view>
-  <view  class="top-text" wx:for="{{['一','二','三','四','五','六','日']}}">周{{item}}
+  <view  class="top-text" wx:for="{{['一','二','三','四','五','六','日']}}" wx:key="index">周{{item}}
   </view>
 </view>
 <view class="date" >
-  <view class="date-text" wx:for="{{datelist}}">{{item}}</view>
+  <view class="date-text" wx:for="{{datelist}}" wx:key="index">{{item}}</view>
 </view>
 <!-- 布局 -->
 <image src="../../../images/course/course.png"/>
 <scroll-view scroll-y="true" class="scroll">
   <view style="height:1300rpx;width:730rpx;display:flex;">
-    <view style="background-color:#95f8df;color:#057748;">
-      <view  class="left" wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}">
+    <view style="color:black;background-color: #43adf7;opacity: 0.6;">
+      <view  class="left" wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}" wx:key="index">
         {{item}}
       </view>
     </view>
-    <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}">
+    <view wx:for="{{[1,2,3,4,5,6,7,8,9,10,11,12]}}" wx:key="index">
       <view style="width:800rpx;margin-top:{{(index+1)*100}}rpx;  position: absolute;">
       </view>
     </view>
 
     <!--课表-->
-    <view wx:for="{{wlist}}">
+    <view wx:for="{{wlist}}" wx:key="index">
       <view bindtap="click" class="flex-item Course-item"   
       data-index="{{index}}" style="margin-left:{{(item.WhichDay-1)*100}}rpx; margin-top:{{(item.CourseBegin-1)*100+5}}rpx;height:{{item.CourseNumber*100-5}}rpx; background-color:{{colorArrays[index%7]}}">
         <view class="smalltext" >
