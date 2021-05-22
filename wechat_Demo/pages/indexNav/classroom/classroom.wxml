@@ -1,7 +1,1 @@
 <!--pages/indexNav/classroom/classroom.wxml-->
-<van-cell title="显示分享面板" bind:click="onClick" />
-<van-share-sheet
-  show="{{ showShare }}"
-  title="立即分享给好友"
-  options="{{ options }}"
-/>

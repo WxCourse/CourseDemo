@@ -1,0 +1,16 @@
+<!--pages/more/compusNews/searchShowTwo.wxml-->
+<view class="xinwen">
+  <view class="title">{{newsTitle}}</view>
+  <view class="time">{{newsTime}}</view>
+</view>
+<view class="recommendContainer,middle" >
+		<!-- 主体内容区域 -->
+    <view class="recommendScroll,scrollItem" wx:for="{{NList}}" wx:key="index">
+      <scroll-view enable-flex scroll-x>
+        <view >
+          <text class="newsContent">{{item.newsContent}}</text>
+        </view>
+      </scroll-view>
+    </view>
+</view>
+

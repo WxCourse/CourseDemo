@@ -1,0 +1,23 @@
+<van-cell-group>
+  <van-field
+    size="large"
+    value="{{ username }}"
+    required
+    clearable
+    label="学号"
+    placeholder="请输入学号"
+    bind:click-icon="onClickIcon"
+  />
+
+  <van-field
+  size="large"
+    value="{{ password }}"
+    type="password"
+    label="密码"
+    clearable
+    placeholder="请输入密码"
+    required
+    border="{{ false }}"
+  />
+</van-cell-group>
+<van-button plain hairline  custom-style="color:gray;border-color:#f4f4f4;margin-top:10rpx;" type="info" size="large" hairline>确认提交</van-button>

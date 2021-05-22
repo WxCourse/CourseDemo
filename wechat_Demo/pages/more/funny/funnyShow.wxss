@@ -1,0 +1,41 @@
+/* pages/more/funny/funnyShow.wxss */
+.qushi{
+  background: linear-gradient(to bottom,#43adf7,#bdf1e7);
+  height: 300rpx;
+  width: 100%;
+}
+.title{
+  font-size: 30rpx;
+  text-align: center;
+  padding-top: 80rpx;
+  color: rgb(61, 61, 61);
+}
+.time{
+  font-size: 25rpx;
+  margin-top: 40rpx;
+  text-align: center;
+  color: rgb(99, 98, 98);
+}
+/* 头部 */
+.middle{
+  background-color: white;
+  height: 100%;
+  border-top-left-radius: 50rpx;
+  border-top-right-radius: 50rpx;
+}
+.recommendContainer {
+  padding: 20rpx 0rpx 1rpx;
+  background-color: white;
+}
+/* 正文内容 */
+.scrollItem{
+  line-height: 60rpx;
+  letter-spacing:4rpx;
+  padding: 20rpx 30rpx;
+}
+.scrollItem .newsContent {
+  line-height: 60rpx;
+  letter-spacing:4rpx;
+  font-size: 28rpx;
+  color: #252136;
+}

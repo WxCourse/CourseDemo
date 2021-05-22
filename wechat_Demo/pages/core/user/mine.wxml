@@ -1,0 +1,111 @@
+<view class="weui-cells">
+    <view class="weui-cell">
+        <view class="cell-header">
+            <view class="cells-header-in">
+                <view class="cell-header-in">
+                    <image src="../../../images/user/login.jpg" style="width:160rpx;height:160rpx;border-radius:50%;"/>
+                </view>
+            </view>
+            <view class="cell-header-name">
+                用户登录
+            </view>
+        </view>
+
+        <view class="cell-body">
+
+            <view class="separator1"></view>
+
+            <view class="cell-body-in">
+            <van-cell is-link  title="个人中心"  size="large" link-type="navigateTo"  url="/pages/core/user/personal"  icon="user-circle-o" type="primary" />
+            <van-cell is-link  title="学籍绑定"  size="large" link-type="navigateTo"  url="/pages/core/user/binding" icon="notes-o" type="primary"/>
+            </view>
+
+            <view class="separator"></view>
+
+            <view class="cell-body-in">
+            <!-- //使用帮助 -->
+                <van-cell title="使用帮助"  
+                size="large"  
+                is-link 
+                bind:click="showPopup" 
+                icon="question-o" 
+                type="primary" />
+
+                <van-popup show="{{ show }}"  round bind:close="onClose">
+                        <view class="user-help">
+                            <view class="user-help-in" >
+                            <view class="question">
+                            1、如何转发分享豆豆课表
+                            </view>
+                            <view class="answer">
+                            在“我的”页面中，点击“分享课表”，即可选择你想要分享的途径和方式。
+                            </view>
+                            <view class="question">
+                            2、如何打开小信助手
+                            </view>
+                            <view class="answer">
+                            
+                            <text>①你可以直接在微信搜索框中输入“小信助手”点击进入小程序  
+                            ②你可以点击右上角的[...]部分将小信助手添加到你的常用小程序中，下次进入时直接在微信页面下拉任务栏即可选择进入。
+                            </text>
+                            </view>
+                            <view class="question">
+                            3、功能简介
+                            </view>
+                            <view class="answer">
+                            
+                            <text>①图书馆藏：你可以找到你想要的图书所在的位置
+                            ②成绩查询：你可以查询已经录入教务系统的学科成绩
+                            ③空闲教室：你可以查询特定时间未排课的空闲教室进行自习
+                            ④学涯统计：你可以查询各类课程的通过情况和课程绩点
+                            ⑤学校校历：你可以查看本学期的学习日、  活动与假期安排
+                            </text>
+                            </view>
+                                
+                            </view>
+                        </view>
+                </van-popup>
+            <!-- //分享课表 -->
+                <button class="anniu">
+                    <van-cell  
+                    size="large" 
+                    icon="share-o" 
+                    type="primary"
+                    bind:click="onClick" 
+                    van-share-sheet
+                    show="{{ show }}"
+                    title="分享课表"
+                    options="{{ options }}"
+                    bind:select="onSelect"
+                    bind:close="onClose"
+                    is-link
+                    />
+                </button>
+                <!-- //联系我们 -->
+                <button class="anniu" open-type="contact" session-from="">
+                    <van-cell title="联系我们" is-link size="large" icon="service-o" type="primary"/>
+                </button>
+            
+           
+            </view>
+        </view>
+
+        <view>
+        
+        </view>
+    
+    </view>
+    
+
+</view>
+
+
+<!-- 
+<van-cell title="显示分享面板" bind:click="onClick" />
+<van-share-sheet
+  show="{{ showShare }}"
+  title="立即分享给好友"
+  options="{{ options }}"
+  bind:select="onSelect"
+  bind:close="onClose"
+/> -->
