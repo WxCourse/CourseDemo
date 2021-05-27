@@ -97,22 +97,51 @@
   margin-right: 60rpx;
   margin-top: 40rpx;
 }
-/* .register-section{
-  position:absolute;
-  left: 0;
-  bottom: 50rpx;
-  width: 100%;
-  font-size: 28rpx;
-  color: #606266;
-  text-align: center;
-
-} */
 
 .three-line {
   margin: 8% 0;
   text-align: center;
   font-size: 24rpx;
   color: gray;
+}
+
+.login-btn {
+  width: 100%!important;
+  background-color: #2f6afd;
+  color: white;
+  font-weight: normal;
+}
+
+/* 底部三方区域 */
+.navContainer {
+  display: flex;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.navItem .iconfont {
+  width: 100rpx;
+  /* height: 100rpx; */
+  text-align: center;
+  /* line-height: 100rpx; */
+  /* background: rgb(56,195,161); */
+  font-size: 50rpx;
+  /* color: #fff; */
+  margin: 10rpx 50rpx;
+}
+.navItem image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.navItem .txt {
+  margin-top: 20rpx ;
+  margin-bottom: 20rpx;
+  font-size: 28rpx;
+  /* color: #303133; */
 }
 
 

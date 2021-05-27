@@ -8,16 +8,30 @@
     <view class="input-content">
       <view class="input-item">
         <text class="tit">用户名</text>
-        <input  type="text" placeholder="" data-test="abc" data-type="phone" id="phone" bindinput="usernameInput"/>
+        <input  type="text" placeholder="" data-test="abc" data-type="phone" id="phone" bindinput="handleInput"/>
       </view>
       <view class="input-item">
         <text class="tit">密码</text>
-        <input type="password"  placeholder="" data-test="abc" data-type="password" id="password" bindinput="passwordInput"/>
+        <input type="password"  placeholder="" data-test="abc" data-type="password" id="password" bindinput="handleInput"/>
       </view>
     </view>
     <view class="register-section">立即注册</view>
     <view class="forget-section"> 忘记密码?</view>
-    <button class="confirm-btn" bindtap="loginBtnClick">登录</button>
+    <button class="confirm-btn" bindtap="login">登录</button>
   </view>
   <view class="three-line">—————还可以使用以下方式登录(⊙o⊙)—————</view>
+  <view class="navContainer">
+        <view class="navItem">
+          <image src='/images/nav/pic/weixin.jpg' bindtap="goLogin"></image>
+          <text class="txt">微信</text>
+        </view>
+        <!-- <view class="navItem">
+          <text class="iconfont icon-qq" bindtap="goTwo"></text>
+          <text class="txt">QQ</text>
+        </view>
+        <view class="navItem">
+          <text class="iconfont icon-weibo" bindtap="goThree"></text>
+          <text class="txt">微博</text>
+        </view> -->
+  </view>
 </view>

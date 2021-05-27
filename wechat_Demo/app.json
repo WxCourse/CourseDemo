@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/core/main/main",
-    "pages/index/index",
+    "pages/index/index",  
     "pages/more/funny/funnyShow",
     "pages/more/funny/funny",
     "pages/more/compusNews/compusNews",
@@ -17,7 +17,8 @@
     "pages/indexNav/books/searchShow",
     "pages/core/user/mine",
     "pages/core/user/binding",
-    "pages/core/user/personal"
+    "pages/core/user/personal",
+    "pages/index/weiXinLogin"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,8 +27,8 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#a9b7b7",
-    "selectedColor": "#43adf7",
+    "color": "#bfbfbf",
+    "selectedColor": "#38c3a1",
     "borderStyle": "white",
     "list": [
       {
